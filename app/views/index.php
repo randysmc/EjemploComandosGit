@@ -10,6 +10,7 @@
         <input type="number" name="num1" required>
         <select name="operacion">
             <option value="suma">+</option>
+            <option value="resta">-</option>
         </select>
         <input type="number" name="num2" required>
         <input type="submit" value="Calcular">
