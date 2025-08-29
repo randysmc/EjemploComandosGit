@@ -9,6 +9,10 @@ class Calculadora{
     public function restar($num1, $num2){
         return $num1 - $num2;
     }
+
+    public function multiplicar($num1, $num2){
+        return $num1 * $num2;
+    }
 }
 
 ?>
