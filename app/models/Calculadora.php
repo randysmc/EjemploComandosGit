@@ -3,10 +3,12 @@
 class Calculadora{
 
     public function sumar($num1, $num2){
+        echo "Hola, creando algo nuevo";
         return $num1 + $num2;
     }
 
     public function restar($num1, $num2){
+        echo "Hola, creando resta";
         return $num1 - $num2;
     }
 
