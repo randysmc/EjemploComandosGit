@@ -13,13 +13,11 @@ class Calculadora{
     public function multiplicar($num1, $num2){
         return $num1 * $num2;
     }
-
     public function dividir($num1, $num2){
-        if($num2 == 0){
-            throw new InvalidArgumentException("No se puede dividir entre cero");
-            
-        } else {
+        if($num2 != 0){
             return $num1 / $num2;
+        } else {
+            throw new InvalidArgumentException("No se puede dividir entre cero");
         }
     }
 }

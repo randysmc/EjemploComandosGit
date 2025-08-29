@@ -12,6 +12,7 @@
             <option value="suma">+</option>
             <option value="resta">-</option>
             <option value="multiplicacion">*</option>
+            <option value="division">/</option>
         </select>
         <input type="number" name="num2" required>
         <input type="submit" value="Calcular">
